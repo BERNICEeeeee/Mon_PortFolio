@@ -19,12 +19,13 @@ const projectList: Project[] = [
     id: 1,
     title: "L’atelier d’Archimède",
     description: "Développer un outil de modélisation 3D simple et intuitif.",
-    image: "/images/archimede.png",
-    gallery: [
-      "/images/archimede1.png",
-      "/images/archimede2.png",
-      "/images/archimede3.png",
-    ],
+    image: `${import.meta.env.BASE_URL}images/archimede.png`,
+  gallery: [
+  `${import.meta.env.BASE_URL}images/archimede1.png`,
+  `${import.meta.env.BASE_URL}images/archimede2.png`,
+  `${import.meta.env.BASE_URL}images/archimede3.png`,
+],
+
     startDate: "Avril 2025",
     endDate: "",
     role: "Développeuse fullstack",
@@ -35,11 +36,12 @@ const projectList: Project[] = [
     id: 2,
     title: "Compétencia",
     description: "Outil de gestion de compétences pour les enseignants.",
-    image: "/images/competencia.png",
-    gallery: [
-      "/images/competencia1.png",
-      "/images/competencia2.png",
-    ],
+   image: `${import.meta.env.BASE_URL}images/competencia.png`,
+   gallery: [
+  `${import.meta.env.BASE_URL}images/competencia1.png`,
+  `${import.meta.env.BASE_URL}images/competencia2.png`,
+],
+
     startDate: "Octobre 2024",
     endDate: "Février 2025",
     role: "Scrum Master, développeuse fullstack",
